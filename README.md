@@ -17,7 +17,7 @@ And other problems that i try to solve but failed is in the [Unsolved Folder](UN
 
 And Each Task's Flag is in the flag.txt
 
-Other task that i solved after the competition ended will be in the [Try Folder](TRY/)
+<!---Other tasks that i solved after the competition ended will be in the [Try Folder](TRY/)-->
 
 
 ---
