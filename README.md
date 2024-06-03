@@ -76,5 +76,78 @@ We get the flag
 N0PS{M0rS3_D3c0d3R_Pr0}
 ```
 ## Web cook `Web`
+![task](resource/web-cook/task.png)<br>
+
+Enter the web
+
+![web](resource/web-cook/web.png)<br>
+
+Enter any username , in my case i use "admin"
+
+![2](resource/web-cook/2.png)<br>
+
+I guess this task is about cookie so i use F12 to check cookie
+
+![3](resource/web-cook/3.png)<br>
+
+The [cookie](SOLVED\web-cook\cook.txt) value seems to be base64 so i decode it and got
+```
+{"username":"admin","isAdmin":0}
+```
+The instructions suggest that i should do something wiht this PHP array
+So i change the "isAdmin" value to 1 
+```
+{"username":"admin","isAdmin":1}
+```
+Then encode it back to base64
+```
+eyJ1c2VybmFtZSI6ImFkbWluIiwiaXNBZG1pbiI6MX0K
+```
+Enter this to be the value of session cookie and refresh the page 
+
+![4](resource\web-cook\4.png)<br>
+
+We got the flag
+```
+N0PS{y0u_Kn0W_H0w_t0_c00K_n0W}
+```
 ## Just read `Reverse`
+
+![task](resource/just-read/task.png)<br>
+
+I check the main file and it's linux executable
+
+![1](resource/just-read/1.png)<br>
+
+I use ghidra to check the main function of this file
+
+![2](resource/just-read/2.png)<br>
+
+And i found this 
+
+```c
+if (sVar24 == 0x17 &&
+    ((((((((((((((((((((((cVar2 == '0' && cVar1 == 'N') && cVar3 == 'P') && cVar4 == 'S') &&
+                      cVar5 == '{') && cVar6 == 'c') && cVar7 == 'H') && cVar8 == '4') &&
+                  cVar9 == 'r') && cVar10 == '_') && cVar11 == '1') && cVar12 == 's') &&
+              cVar13 == '_') && cVar14 == '8') && cVar15 == 'b') && cVar16 == 'i') &&
+          cVar17 == 't') && cVar18 == 's') && cVar19 == '_') && cVar20 == '1') && cVar21 == 'N')
+      && cVar22 == 't') && cVar23 == '}')) {
+  puts("Well done, you can validate with this flag!");
+}
+```
+I then solve this with a oneliner
+```
+grep -o "cVar[0-9]* == '[^']'" | awk -F "'" '{print $2}' | tr -d "\n" | sed 's/0NPS/N0PS/'
+```
+We get the flag
+```
+N0PS{cH4r_1s_8bits_1Nt}
+```
+
+
+
+
+
+
 ## Where am I 1/3 `OSINT`
