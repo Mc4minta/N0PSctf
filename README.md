@@ -7,7 +7,7 @@
   - [Just read `Reverse`](#just-read-reverse)
   - [Where am I 1/3 `OSINT`](#where-am-i-13-osint)
 ---
-This is my writeup for N0PSctf via [<ins>competition link<ins>](https://ctf.nops.re/) , [<ins>ctf time link<ins>](https://ctftime.org/event/2358) <br>
+This is my repository for N0PSctf via [<ins>competition link<ins>](https://ctf.nops.re/) , [<ins>ctf time link<ins>](https://ctftime.org/event/2358) <br>
 Held from 1-3 June GMT+7.
 
 ![score](resource/score.png)
