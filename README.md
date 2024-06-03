@@ -105,7 +105,7 @@ eyJ1c2VybmFtZSI6ImFkbWluIiwiaXNBZG1pbiI6MX0K
 ```
 Enter this to be the value of session cookie and refresh the page 
 
-![4](resource\web-cook\4.png)<br>
+![4](resource/web-cook/4.png)<br>
 
 We got the flag
 ```
