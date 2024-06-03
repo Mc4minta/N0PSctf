@@ -25,6 +25,9 @@ Other task that i solved after the competition ended will be in the [Try Folder]
 # Solved Task writeup
 ## Jojo is missing! `The Rescue of Jojo`
 ![jojo-is-missing](resource/jojo-is-missing/task.png)
+```
+We have received a message from Jojo, join out Discord server to read it: https://discord.com/invite/xqvnaGzG6x
+```
 
 This task prompted you to join discord server via the link<br>
 after that you will see this message
@@ -53,6 +56,23 @@ We got the flag:
 N0PS{J0J0_1s_m1S51nG!}
 ```
 ## Morse Me `Misc`
+![morse-me](resource/morse-me/task.png)<br>
+
+download the [challenge.txt](/SOLVED/morse-me/challenge.txt) file<br>
+```
+....- ...-- -.... ..-. -.... . -.... --... --... ..--- -.... .---- --... ....- --... .- ..--- .---- ..--- ----- ..... ....- -.... ---.. -.... ..... ..--- ----- -.... -.... -.... -.-. -.... .---- -.... --... ..--- ----- -.... ----. --... ...-- ...-- .- ..--- ----- ....- . ...-- ----- ..... ----- ..... ...-- --... -... ....- -.. ...-- ----- --... ..--- ..... ...-- ...-- ...-- ..... ..-. ....- ....- ...-- ...-- -.... ...-- ...-- ----- -.... ....- ...-- ...-- ..... ..--- ..... ..-. ..... ----- --... ..--- ...-- ----- --... -..
+```
+Decode this via [CyberChef](https://gchq.github.io/CyberChef/)<br>
+![solve](resource/morse-me/solve.png)<br>
+or we can do this
+```
+cat morse-to-hex.txt | xxd -r -p | grep -o N0PS{.*} > flag.txt && cat flag.txt
+```
+We get the flag
+```
+N0PS{M0rS3_D3c0d3R_Pr0}
+```
 ## Web cook `Web`
+
 ## Just read `Reverse`
 ## Where am I 1/3 `OSINT`
