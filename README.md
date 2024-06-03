@@ -3,9 +3,9 @@
 - [Solved Task writeup](#solved-task-writeup)
   - [Jojo is missing!](#jojo-is-missing)
   - [Morse Me](#morse-me)
-  - [Web cook `Web`](#web-cook-web)
+  - [Web cook](#web-cook)
   - [Just read](#just-read)
-  - [Where am I 1/3 `OSINT`](#where-am-i-13-osint)
+  - [Where am I 1/3](#where-am-i-13)
 ---
 This is my repository for N0PSctf via [<ins>competition link<ins>](https://ctf.nops.re/) , [<ins>ctf time link<ins>](https://ctftime.org/event/2358) <br>
 Held from 1-3 June GMT+7.
@@ -77,7 +77,7 @@ We get the flag
 ```
 N0PS{M0rS3_D3c0d3R_Pr0}
 ```
-## Web cook `Web`
+## Web cook
 ![task](resource/web-cook/task.png)<br>
 
 Enter the web
@@ -147,7 +147,7 @@ We get the flag
 ```
 N0PS{cH4r_1s_8bits_1Nt}
 ```
-## Where am I 1/3 `OSINT`
+## Where am I 1/3
 > OSINT
 
 ![task](resource/where-am-i-1-3/task.png)<br>
