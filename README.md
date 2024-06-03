@@ -148,3 +148,26 @@ We get the flag
 N0PS{cH4r_1s_8bits_1Nt}
 ```
 ## Where am I 1/3 `OSINT`
+> OSINT
+
+![task](resource/where-am-i-1-3/task.png)<br>
+
+I just use google reverse image search 
+
+![1](resource/where-am-i-1-3/1.png)<br>
+
+just look till you find the name
+```
+Praça do Comércio
+```
+and convert it to the format that the task wanted
+```
+praca-do-comercio
+```
+We get the flag
+```
+N0PS{praca-do-comercio}
+```
+---
+> [!NOTE]
+> You have reached the end, thank you for reading through this, this is my first writeup I have ever created.
