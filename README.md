@@ -5,5 +5,6 @@ Held from 1-3 June GMT+7.
 
 ![score](resource/score.png)
 
+I can only solved 5 task in the [solved](SOLVED/)
 
 
