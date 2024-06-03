@@ -1,10 +1,10 @@
 # N0PSctf
 - [N0PSctf](#n0psctf)
 - [Solved Task writeup](#solved-task-writeup)
-  - [Jojo is missing! `The Rescue of Jojo`](#jojo-is-missing-the-rescue-of-jojo)
-  - [Morse Me `Misc`](#morse-me-misc)
+  - [Jojo is missing!](#jojo-is-missing)
+  - [Morse Me](#morse-me)
   - [Web cook `Web`](#web-cook-web)
-  - [Just read `Reverse`](#just-read-reverse)
+  - [Just read](#just-read)
   - [Where am I 1/3 `OSINT`](#where-am-i-13-osint)
 ---
 This is my repository for N0PSctf via [<ins>competition link<ins>](https://ctf.nops.re/) , [<ins>ctf time link<ins>](https://ctftime.org/event/2358) <br>
@@ -23,7 +23,9 @@ Other task that i solved after the competition ended will be in the [Try Folder]
 ---
 
 # Solved Task writeup
-## Jojo is missing! `The Rescue of Jojo`
+## Jojo is missing! 
+> The Rescue of Jojo
+
 ![jojo-is-missing](resource/jojo-is-missing/task.png)
 ```
 We have received a message from Jojo, join out Discord server to read it: https://discord.com/invite/xqvnaGzG6x
@@ -55,8 +57,8 @@ We got the flag:
 ``` 
 N0PS{J0J0_1s_m1S51nG!}
 ```
-## Morse Me `Misc`
-
+## Morse Me
+> Misc
 ![morse-me](resource/morse-me/task.png)<br>
 
 Download the [challenge.txt](/SOLVED/morse-me/challenge.txt) file<br>
@@ -111,7 +113,8 @@ We got the flag
 ```
 N0PS{y0u_Kn0W_H0w_t0_c00K_n0W}
 ```
-## Just read `Reverse`
+## Just read
+> Reverse
 
 ![task](resource/just-read/task.png)<br>
 
@@ -144,10 +147,4 @@ We get the flag
 ```
 N0PS{cH4r_1s_8bits_1Nt}
 ```
-
-
-
-
-
-
 ## Where am I 1/3 `OSINT`
