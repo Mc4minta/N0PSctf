@@ -24,12 +24,12 @@ Other task that i solved after the competition ended will be in the [Try Folder]
 
 # Solved Task writeup
 ## Jojo is missing! `The Rescue of Jojo`
-![jojo-is-missing](resource\jojo-is-missing\task.png)
+![jojo-is-missing](resource/jojo-is-missing/task.png)
 
 This task prompted you to join discord server via the link<br>
 after that you will see this message
 
-![discord-message](resource\jojo-is-missing\discord-message.png)<br>
+![discord-message](resource/jojo-is-missing/discord-message.png)<br>
 
 you will get this hex code<br>
 ```
