@@ -56,6 +56,7 @@ We got the flag:
 N0PS{J0J0_1s_m1S51nG!}
 ```
 ## Morse Me `Misc`
+
 ![morse-me](resource/morse-me/task.png)<br>
 
 download the [challenge.txt](/SOLVED/morse-me/challenge.txt) file<br>
@@ -63,7 +64,9 @@ download the [challenge.txt](/SOLVED/morse-me/challenge.txt) file<br>
 ....- ...-- -.... ..-. -.... . -.... --... --... ..--- -.... .---- --... ....- --... .- ..--- .---- ..--- ----- ..... ....- -.... ---.. -.... ..... ..--- ----- -.... -.... -.... -.-. -.... .---- -.... --... ..--- ----- -.... ----. --... ...-- ...-- .- ..--- ----- ....- . ...-- ----- ..... ----- ..... ...-- --... -... ....- -.. ...-- ----- --... ..--- ..... ...-- ...-- ...-- ..... ..-. ....- ....- ...-- ...-- -.... ...-- ...-- ----- -.... ....- ...-- ...-- ..... ..--- ..... ..-. ..... ----- --... ..--- ...-- ----- --... -..
 ```
 Decode this via [CyberChef](https://gchq.github.io/CyberChef/)<br>
+
 ![solve](resource/morse-me/solve.png)<br>
+
 or we can do this
 ```
 cat morse-to-hex.txt | xxd -r -p | grep -o N0PS{.*} > flag.txt && cat flag.txt
